@@ -97,7 +97,7 @@ The following are a high-level steps to follow as you work on deploying
 the `voting-app` to Kubernetes. If at any time you need assistance, then
 please reach out to your instructor.
 
-Step 1: Create a `PersistentVolume` of type `hostPath` and size of
+Step 1: Create a `PersistentVolume` of type `nfs` and size of
 `100Mi`.
 
 Step 2: Create a `PersistentVolumeClaim` with `accessMode` of read and
